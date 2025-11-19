@@ -4,7 +4,7 @@ const data = [
     title: 'Analysis of Active Thermal Pre-Conditioning on EV Battery SOH in Hot Climates',
     subtitle: 'Lithium Battery Lifecycle Management | University of Michigan',
     link: 'https://docs.google.com/presentation/d/1fh4o9ZtHmnW4W8z4bP02oNGRI8Ftd8c6/edit?usp=sharing&ouid=109204800417214559879&rtpof=true&sd=true',
-    image: '/images/projects/batterypreconditioning.jpg',
+    image: 'public/images/projects/batterypreconditioning.jpg',
     date: '2025-11-19',
     desc:
       'This project involved designing and simulating an active Battery Thermal Management System (BTMS) in MATLAB/Simulink to prevent heat soaking and degradation in EV batteries during key-off (parked) conditions, particularly in hot climates where ambient temperatures peak near 45°C. The core achievement was the development of a Simulink model coupling a 2-state thermal RC battery model with a closed-loop 3-mode controller for the cooling system. This controller intelligently switches the system ON or OFF based on internal temperature thresholds, ensuring the battery core stays below 30°C. The model also simulates a fixed-power A/C compressor by generating two outputs: a thermal sink signal (Q_cooler) based on the COP, and a parasitic electrical load (I_cooler = P/V) that discharges the battery. This enables accurate estimation of the energy penalty required to maintain thermal stability.',
