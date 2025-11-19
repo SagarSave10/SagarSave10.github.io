@@ -5,18 +5,7 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
 // to add other icons.
 
 const data = [
-  {
-    link: 'https://github.com/mldangelo',
-    label: 'Github',
-    icon: faGithub,
-  },
-
-  {
-    link: 'https://www.instagram.com/dangelosaurus/',
-    label: 'Instagram',
-    icon: faInstagram,
-  },
-  {
+    {
     link: 'https://www.linkedin.com/in/sagar-save1',
     label: 'LinkedIn',
     icon: faLinkedinIn,
