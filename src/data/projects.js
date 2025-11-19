@@ -3,6 +3,7 @@ const data = [
   {
     title: 'Analysis of Active Thermal Pre-Conditioning on EV Battery SOH in Hot Climates',
     subtitle: 'Lithium Battery Lifecycle Management | University of Michigan',
+    link: 'https://docs.google.com/presentation/d/1fh4o9ZtHmnW4W8z4bP02oNGRI8Ftd8c6/edit?usp=sharing&ouid=109204800417214559879&rtpof=true&sd=true',
     image: '/images/batterypreconditiong.jpg',
     date: '2025-11-19',
     desc:
