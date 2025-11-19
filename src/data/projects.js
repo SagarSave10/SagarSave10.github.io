@@ -1,6 +1,15 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Analysis of Active Thermal Pre-Conditioning on EV Battery SOH in Hot Climates',
+    subtitle: 'Lithium Battery Lifecycle Management | University of Michigan',
+    link: 'https://docs.google.com/presentation/d/1fh4o9ZtHmnW4W8z4bP02oNGRI8Ftd8c6/edit?usp=sharing&ouid=109204800417214559879&rtpof=true&sd=true',
+    image: '/images/projects/batterypreconditiong.jpg',
+    date: '2025-11-19',
+    desc:
+      'This project involved designing and simulating an active Battery Thermal Management System (BTMS) in MATLAB/Simulink to prevent heat soaking and degradation in EV batteries during key-off (parked) conditions, particularly in hot climates where ambient temperatures peak near 45°C. The core achievement was the development of a Simulink model coupling a 2-state thermal RC battery model with a closed-loop 3-mode controller for the cooling system. This controller intelligently switches the system ON or OFF based on internal temperature thresholds, ensuring the battery core stays below 30°C. The model also simulates a fixed-power A/C compressor by generating two outputs: a thermal sink signal (Q_cooler) based on the COP, and a parasitic electrical load (I_cooler = P/V) that discharges the battery. This enables accurate estimation of the energy penalty required to maintain thermal stability.',
+  },
+  {
     title: 'High Sensitivity Comb-Drive Capacitive Accelerometer for Head-Mounted Display',
     subtitle: 'EECS 425: Integrated Microsystems | University of Michigan',
     link: 'https://drive.google.com/file/d/1RhFZGr_jvjAV5osILd_MIghXXdhnywEo/view?usp=sharing',
@@ -16,15 +25,6 @@ const data = [
     date: '2025-06-17',
     desc:
       'This project focused on automating the manual and ergonomically challenging process of wire harness installation in vehicle assembly using Design for Automated Robotic Assembly (DFARA) principles. A quantitative methodology was developed to assess robotic feasibility based on geometric and functional complexity. Key contributions include a 7-digit complexity framework to evaluate handling and insertion difficulty, a cost model linking design metrics to robotic operation expenses, and an ontology-based task structure to rank installation steps by robotic difficulty. Design recommendations—such as modular harnesses, selective stiffness zones, and automation-friendly connectors—were proposed to improve robotic compatibility. The approach also incorporated product family design strategies for scalable automation across vehicle platforms, laying a foundation for AI-driven, vision-assisted robotic systems. ',
-  },
-  {
-    title: 'Analysis of Active Thermal Pre-Conditioning on EV Battery SOH in Hot Climates',
-    subtitle: 'Lithium Battery Lifecycle Management | University of Michigan',
-    link: 'https://docs.google.com/presentation/d/1fh4o9ZtHmnW4W8z4bP02oNGRI8Ftd8c6/edit?usp=sharing&ouid=109204800417214559879&rtpof=true&sd=true',
-    image: '/images/batterypreconditiong.jpg',
-    date: '2025-11-19',
-    desc:
-      'This project involved designing and simulating an active Battery Thermal Management System (BTMS) in MATLAB/Simulink to prevent heat soaking and degradation in EV batteries during key-off (parked) conditions, particularly in hot climates where ambient temperatures peak near 45°C. The core achievement was the development of a Simulink model coupling a 2-state thermal RC battery model with a closed-loop 3-mode controller for the cooling system. This controller intelligently switches the system ON or OFF based on internal temperature thresholds, ensuring the battery core stays below 30°C. The model also simulates a fixed-power A/C compressor by generating two outputs: a thermal sink signal (Q_cooler) based on the COP, and a parasitic electrical load (I_cooler = P/V) that discharges the battery. This enables accurate estimation of the energy penalty required to maintain thermal stability.',
   },
   {
     title: 'Analysis of Domestic Supply Chains and Manufacturing Capability',
