@@ -1,13 +1,21 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Analysis of Active Thermal Pre-Conditioning on EV Battery SOH in Hot Climates',
+    subtitle: 'Lithium battery Lifecycle Managment | University of Michigan',
+    image: '/images/batterypreconditiong.jpg',
+    date: '2025-11-24',
+    desc:
+      'This project involved designing and simulating an active Battery Thermal Management System (BTMS) in MATLAB/Simulink to prevent heat soaking and degradation in EV batteries during key-off (parked) conditions, particularly in hot climates where ambient temperatures peak near $45^\circ\text{C}$. The core achievement was the development of a Simulink model coupling a 2-state thermal RC battery model with a closed-loop 3-mode controller for the cooling system. This controller intelligently switches the system $\text{ON}$ or $\text{OFF}$ based on internal temperature thresholds, ensuring the battery core stays below $30^\circ\text{C}$. Crucially, the model accurately simulates the fixed-power A/C compressor by generating two simultaneous outputs: a thermal sink signal ($\dot{Q}_{\text{cooler}}$) based on the COP, and a precise parasitic electrical load ($I_{\text{cooler}} = P/V$) that discharges the battery, thus quantifying the energy penalty required to maintain optimal thermal stability.',
+  },
+  {
     title: 'High Sensitivity Comb-Drive Capacitive Accelerometer for Head-Mounted Display',
     subtitle: 'EECS 425: Integrated Microsystems | University of Michigan',
     link: 'https://drive.google.com/file/d/1RhFZGr_jvjAV5osILd_MIghXXdhnywEo/view?usp=sharing',
     image: '/images/nearestdollar.jpg',
     date: '2025-04-21',
     desc:
-      'TDesigned, simulated, and tested a high-sensitivity capacitive MEMS accelerometer for AR/VR head-mounted displays. The device featured an asymmetrical comb-drive with a variable-gap design, achieving 0.13 pF/g sensitivity over a ±20 g range. Fabricated using a Silicon-on-Glass process and integrated with a custom CMOS readout circuit, the system delivered 47 mV/g sensitivity and ~130 µg resolution. Structural and capacitance simulations were conducted in COMSOL and SolidWorks; circuit validation was performed in Cadence. The system supports electrostatic force testing and offers a tunable bandwidth up to 30 Hz—ideal for low-latency motion tracking in wearable electronics.',
+      'Designed, simulated, and tested a high-sensitivity capacitive MEMS accelerometer for AR/VR head-mounted displays. The device featured an asymmetrical comb-drive with a variable-gap design, achieving 0.13 pF/g sensitivity over a ±20 g range. Fabricated using a Silicon-on-Glass process and integrated with a custom CMOS readout circuit, the system delivered 47 mV/g sensitivity and ~130 µg resolution. Structural and capacitance simulations were conducted in COMSOL and SolidWorks; circuit validation was performed in Cadence. The system supports electrostatic force testing and offers a tunable bandwidth up to 30 Hz—ideal for low-latency motion tracking in wearable electronics.',
   },
   {
     title: 'Design for Automated Installation of Vehicle Wiring Systems',
