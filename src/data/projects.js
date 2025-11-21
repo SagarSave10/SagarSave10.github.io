@@ -45,6 +45,14 @@ const data = [
       'Designed and simulated a flapping-wing MAV inspired by insect flight, focusing on stable hovering and lift generation. Conducted transient CFD analysis using ANSYS FLUENT to evaluate unsteady aerodynamic performance, with structural modeling in SolidWorks.'
       + 'Achievements: Secured 2nd place in Innovation Next Projects and ranked among the top 10 finalists in a university-level research paper competition for innovation and technical depth.',
   },
+  {
+    title: 'Catalytic Converter Re-Engineering and Supplier Transition Project',
+    subtitle: 'VAVE Projects | Royal Enfield',
+    image: '/images/projects/catalytic.jpg',
+    date: '2024-05-15',
+    desc:
+      'Governed a high-impact Value Analysis/Value Engineering (VAVE) initiative designed to achieve material governance and enhance supply chain resilience for the catalytic converter system. This strategic mandate involved engineering the deployment of a new, cost-effective perforated substrate technology and integrating a Japanese supplier (Cataler), fundamentally reducing high-cost Platinum Group Metal (PGM) consumption. Project accountability included developing the comprehensive financial business case and execution risk assessment for executive review, alongside ensuring validated compliance under stringent Euro 5/BS 6 emission cycles (for NOx, CO, and unburnt hydrocarbons). This initiative successfully achieved a 45% reduction in component cost, delivering over $7.5 million USD in annualized material savings, and included managing the entire manufacturing integration and production ramp-up cycle.',
+  },
 ];
 
 export default data;
