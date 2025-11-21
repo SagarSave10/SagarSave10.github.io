@@ -53,6 +53,13 @@ const data = [
     desc:
       'Governed a high-impact Value Analysis/Value Engineering (VAVE) initiative designed to achieve material governance and enhance supply chain resilience for the catalytic converter system. This strategic mandate involved engineering the deployment of a new, cost-effective perforated substrate technology and integrating a Japanese supplier (Cataler), fundamentally reducing high-cost Platinum Group Metal (PGM) consumption. Project accountability included developing the comprehensive financial business case and execution risk assessment for executive review, alongside ensuring validated compliance under stringent Euro 5/BS 6 emission cycles (for NOx, CO, and unburnt hydrocarbons). This initiative successfully achieved a 45% reduction in component cost, delivering over $7.5 million USD in annualized material savings, and included managing the entire manufacturing integration and production ramp-up cycle.',
   },
+  {
+    title: 'PDMS Thin Film Characterization for Gas Sensors',
+    subtitle: 'Research Project | University of Michigan',
+    date: '2025-11-20',
+    desc:
+      'This project focused on characterizing and validating a novel, low-cost PDMS (polydimethylsiloxane) solution spraying method designed to deposit sensing layers for highly reproducible and scalable gas sensor fabrication. To achieve the required micro-scale precision, I personally managed the Process Development, designing and validating custom micro-scale stencils with minimum 200µm features using a complete CAD/CAM workflow (AutoCAD and Autodesk EAGLE). This included overseeing the full stencil manufacturing data chain, from converting complex DXF geometry into vendor-ready Gerber files to managing layer mapping. For Technical Execution and Metrology, I characterized the resulting PDMS films using the LEXT 3D Laser Scanning Microscope, meticulously measuring critical film properties such as thickness, feature width, and surface roughness to optimize spraying parameters. The Outcome was the successful establishment of a reliable, repeatable deposition process for the PDMS layer, which significantly reduced manufacturing costs and waste, paving a clear path toward the mass production of affordable gas sensor arrays.',
+  },
 ];
 
 export default data;
