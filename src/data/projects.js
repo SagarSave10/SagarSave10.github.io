@@ -63,9 +63,16 @@ const data = [
   {
     title: 'Drivetrain NVH Reduction via Statistical Tolerance Optimization (Himalayan Platform)',
     subtitle: 'Graduate Engineering Trianee| Royal Enfiled',
-    date: '2022-01-21',
+    date: '2022-01-30',
     desc:
       'Spearheaded a Six Sigma (DMAIC) initiative to eliminate a critical acoustic defect (rattling/howling) in the Himalayan engine assembly, which was impacting production throughput. The investigation involved a comprehensive tear-down analysis of 100+ engines and the application of 7 QC tools to filter manufacturing variables. Through Pareto analysis and statistical process control (SPC) using box plots, the root cause was isolated to specific tolerance stack-ups between the Gear Pitch Circle Diameter (PCD) and casing center-to-center distances. I validated this hypothesis by designing a Taguchi (L9) experiment, deliberately assembling units with specific dimensional combinations to replicate the failure mode. The resulting optimization of machining tolerances successfully eliminated the defect, restoring line quality and protecting the vehicle long-term durability.',
+  },
+  {
+    title: 'Development of Indoor Pass-By Noise Testing Protocol',
+    subtitle: 'Graduate Engineering Trianee| Royal Enfiled',
+    date: '2022-04-30',
+    desc:
+      'To accelerate vehicle validation cycles, I engineered a novel indoor testing methodology within a semi-anechoic chamber to replicate regulatory pass-by noise certification. Utilizing a custom spatial array of microphones and a Siemens Data Acquisition (DAQ) system, I captured acoustic signatures and performed a rigorous correlation study against traditional outdoor track data. The indoor model demonstrated strong fidelity, achieving results within a 10% deviation of actual track conditions. Consequently, this protocol was standardized and deployed across multiple motorcycle platforms, significantly reducing the logistical costs and weather dependencies associated with outdoor testing.',
   },
 ];
 
