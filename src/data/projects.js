@@ -56,6 +56,7 @@ const data = [
   {
     title: 'PDMS Thin Film Characterization for Gas Sensors',
     subtitle: 'Research Project | University of Michigan',
+    image: '/images/projects/film.jpg',
     date: '2025-11-20',
     desc:
       'This project focused on characterizing and validating a novel, low-cost PDMS (polydimethylsiloxane) solution spraying method designed to deposit sensing layers for highly reproducible and scalable gas sensor fabrication. To achieve the required micro-scale precision, I personally managed the Process Development, designing and validating custom micro-scale stencils with minimum 200µm features using a complete CAD/CAM workflow (AutoCAD and Autodesk EAGLE). This included overseeing the full stencil manufacturing data chain, from converting complex DXF geometry into vendor-ready Gerber files to managing layer mapping. For Technical Execution and Metrology, I characterized the resulting PDMS films using the LEXT 3D Laser Scanning Microscope, meticulously measuring critical film properties such as thickness, feature width, and surface roughness to optimize spraying parameters. The Outcome was the successful establishment of a reliable, repeatable deposition process for the PDMS layer, which significantly reduced manufacturing costs and waste, paving a clear path toward the mass production of affordable gas sensor arrays.',
@@ -63,6 +64,7 @@ const data = [
   {
     title: 'Drivetrain NVH Reduction via Statistical Tolerance Optimization (Himalayan Platform)',
     subtitle: 'Graduate Engineering Trianee| Royal Enfiled',
+    image: '/images/projects/Balancer.jpg',
     date: '2022-01-30',
     desc:
       'Spearheaded a Six Sigma (DMAIC) initiative to eliminate a critical acoustic defect (rattling/howling) in the Himalayan engine assembly, which was impacting production throughput. The investigation involved a comprehensive tear-down analysis of 100+ engines and the application of 7 QC tools to filter manufacturing variables. Through Pareto analysis and statistical process control (SPC) using box plots, the root cause was isolated to specific tolerance stack-ups between the Gear Pitch Circle Diameter (PCD) and casing center-to-center distances. I validated this hypothesis by designing a Taguchi (L9) experiment, deliberately assembling units with specific dimensional combinations to replicate the failure mode. The resulting optimization of machining tolerances successfully eliminated the defect, restoring line quality and protecting the vehicle long-term durability.',
