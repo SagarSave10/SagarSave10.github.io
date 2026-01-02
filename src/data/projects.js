@@ -70,6 +70,7 @@ const data = [
   {
     title: 'Development of Indoor Pass-By Noise Testing Protocol',
     subtitle: 'Graduate Engineering Trianee| Royal Enfiled',
+    image: '/images/projects/indoor-pass-by-room.jpg',
     date: '2022-04-30',
     desc:
       'To accelerate vehicle validation cycles, I engineered a novel indoor testing methodology within a semi-anechoic chamber to replicate regulatory pass-by noise certification. Utilizing a custom spatial array of microphones and a Siemens Data Acquisition (DAQ) system, I captured acoustic signatures and performed a rigorous correlation study against traditional outdoor track data. The indoor model demonstrated strong fidelity, achieving results within a 10% deviation of actual track conditions. Consequently, this protocol was standardized and deployed across multiple motorcycle platforms, significantly reducing the logistical costs and weather dependencies associated with outdoor testing.',
