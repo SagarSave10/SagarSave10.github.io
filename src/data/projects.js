@@ -1,13 +1,13 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Analysis of Active Thermal Pre-Conditioning on EV Battery SOH in Hot Climates',
-    subtitle: 'Lithium Battery Lifecycle Management | University of Michigan',
-    link: 'https://docs.google.com/presentation/d/1fh4o9ZtHmnW4W8z4bP02oNGRI8Ftd8c6/edit?usp=sharing&ouid=109204800417214559879&rtpof=true&sd=true',
-    image: '/images/projects/batterypreconditioning.jpg',
-    date: '2025-11-19',
+    title: 'Power Module Thermal Simulation & Design Optimization',
+    subtitle: 'Research assistant | Electric Vehicle Center University of Michigan',
+    link: 'https://drive.google.com/file/d/10B-piLzZumHvmnLolPQrUI3U_P8uSDRi/view?usp=drive_link',
+    image: '/images/projects/thermalanalysis.jpg',
+    date: '2025-05-15',
     desc:
-      'This project involved designing and simulating an active Battery Thermal Management System (BTMS) in MATLAB/Simulink to prevent heat soaking and degradation in EV batteries during key-off (parked) conditions, particularly in hot climates where ambient temperatures peak near 45°C. The core achievement was the development of a Simulink model coupling a 2-state thermal RC battery model with a closed-loop 3-mode controller for the cooling system. This controller intelligently switches the system ON or OFF based on internal temperature thresholds, ensuring the battery core stays below 30°C. The model also simulates a fixed-power A/C compressor by generating two outputs: a thermal sink signal (Q_cooler) based on the COP, and a parasitic electrical load (I_cooler = P/V) that discharges the battery. This enables accurate estimation of the energy penalty required to maintain thermal stability.',
+      'Designed and executed multi-scale thermal simulations of SiC-based power modules for automotive traction inverters, covering both single-sided and double-sided cooled architectures. The work spanned individual die to full package-level analysis, incorporating realistic material properties for Al₂O₃, AlN, and Si₃N₄ DBC substrates under high-performance cooling conditions (HTC = 40,000 W/m²K). Detailed parametric studies evaluated the impact of baseplate area, die spacing, copper interconnect geometry, stack-up thickness, and heat transfer coefficient on junction temperature and thermal resistance. Optimized architectures were stress-tested by scaling power dissipation from 4.0 kW to 11.7 kW, benchmarking viability against high-power EV platforms and establishing thermally robust design guidelines for next-generation power electronics.',
   },
   {
     title: 'High Sensitivity Comb-Drive Capacitive Accelerometer for Head-Mounted Display',
@@ -17,6 +17,15 @@ const data = [
     date: '2025-04-21',
     desc:
       'Designed, simulated, and tested a high-sensitivity capacitive MEMS accelerometer for AR/VR head-mounted displays. The device featured an asymmetrical comb-drive with a variable-gap design, achieving 0.13 pF/g sensitivity over a ±20 g range. Fabricated using a Silicon-on-Glass process and integrated with a custom CMOS readout circuit, the system delivered 47 mV/g sensitivity and ~130 µg resolution. Structural and capacitance simulations were conducted in COMSOL and SolidWorks; circuit validation was performed in Cadence. The system supports electrostatic force testing and offers a tunable bandwidth up to 30 Hz—ideal for low-latency motion tracking in wearable electronics.',
+  },
+  {
+    title: 'Analysis of Active Thermal Pre-Conditioning on EV Battery SOH in Hot Climates',
+    subtitle: 'Lithium Battery Lifecycle Management | University of Michigan',
+    link: 'https://docs.google.com/presentation/d/1fh4o9ZtHmnW4W8z4bP02oNGRI8Ftd8c6/edit?usp=sharing&ouid=109204800417214559879&rtpof=true&sd=true',
+    image: '/images/projects/batterypreconditioning.jpg',
+    date: '2025-11-19',
+    desc:
+      'This project involved designing and simulating an active Battery Thermal Management System (BTMS) in MATLAB/Simulink to prevent heat soaking and degradation in EV batteries during key-off (parked) conditions, particularly in hot climates where ambient temperatures peak near 45°C. The core achievement was the development of a Simulink model coupling a 2-state thermal RC battery model with a closed-loop 3-mode controller for the cooling system. This controller intelligently switches the system ON or OFF based on internal temperature thresholds, ensuring the battery core stays below 30°C. The model also simulates a fixed-power A/C compressor by generating two outputs: a thermal sink signal (Q_cooler) based on the COP, and a parasitic electrical load (I_cooler = P/V) that discharges the battery. This enables accurate estimation of the energy penalty required to maintain thermal stability.',
   },
   {
     title: 'Design for Automated Installation of Vehicle Wiring Systems',
