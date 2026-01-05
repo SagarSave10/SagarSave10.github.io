@@ -28,6 +28,15 @@ const data = [
       'This project involved designing and simulating an active Battery Thermal Management System (BTMS) in MATLAB/Simulink to prevent heat soaking and degradation in EV batteries during key-off (parked) conditions, particularly in hot climates where ambient temperatures peak near 45°C. The core achievement was the development of a Simulink model coupling a 2-state thermal RC battery model with a closed-loop 3-mode controller for the cooling system. This controller intelligently switches the system ON or OFF based on internal temperature thresholds, ensuring the battery core stays below 30°C. The model also simulates a fixed-power A/C compressor by generating two outputs: a thermal sink signal (Q_cooler) based on the COP, and a parasitic electrical load (I_cooler = P/V) that discharges the battery. This enables accurate estimation of the energy penalty required to maintain thermal stability.',
   },
   {
+    title: 'Electromechanical Design & Simulation of RF MEMS Switches for X-Band Radar',
+    subtitle: 'Micro Electro-Mechanical Systems (MEMS) | University of Michigan',
+    link: 'https://drive.google.com/file/d/1oer15JQMJjnZAhQUrTd5vQzhNBmoplXQ/view?usp=sharing',
+    image: '/images/projects/RFmems.jpg',
+    date: '2025-12-10',
+    desc:
+      'This project focused on the design, analytical modeling, and Finite Element Analysis (FEA) of a Series Ohmic RF MEMS Switch tailored for 14 GHz radar applications. The primary objective was to overcome the limitations of solid-state switches by developing a high-stiffness electromechanical actuator with superior isolation and linearity. I engineered a gold cantilever beam structure (L=170µm, t=5µm) and validated its performance using COMSOL Multiphysics, confirming a pull-in voltage of 218V and a mechanical resonant frequency of 15.8 kHz. A key technical achievement was resolving the non-linear electrostatic force interactions, where I utilized Maxwell Stress Tensor integration to accurately model the contact force (15.2 µN) and dynamic switching behavior (20 µs switching time). Additionally, I defined a comprehensive nine-step surface micromachining fabrication process using High-Resistivity Silicon and Polyimide, ensuring the design’s feasibility for real-world radar integration.',
+  },
+  {
     title: 'Design for Automated Installation of Vehicle Wiring Systems',
     subtitle: 'Graduate Research',
     image: '/images/projects/DFA.jpg',
