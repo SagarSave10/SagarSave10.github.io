@@ -31,7 +31,7 @@ const data = [
     title: 'Electromechanical Design & Simulation of RF MEMS Switches for X-Band Radar',
     subtitle: 'Micro Electro-Mechanical Systems (MEMS) | University of Michigan',
     link: 'https://drive.google.com/file/d/1oer15JQMJjnZAhQUrTd5vQzhNBmoplXQ/view?usp=sharing',
-    image: '/images/projects/RFmems1.jpg',
+    image: '/images/projects/rfmems.jpg',
     date: '2025-12-10',
     desc:
       'This project focused on the design, analytical modeling, and Finite Element Analysis (FEA) of a Series Ohmic RF MEMS Switch tailored for 14 GHz radar applications. The primary objective was to overcome the limitations of solid-state switches by developing a high-stiffness electromechanical actuator with superior isolation and linearity. I engineered a gold cantilever beam structure (L=170µm, t=5µm) and validated its performance using COMSOL Multiphysics, confirming a pull-in voltage of 218V and a mechanical resonant frequency of 15.8 kHz. A key technical achievement was resolving the non-linear electrostatic force interactions, where I utilized Maxwell Stress Tensor integration to accurately model the contact force (15.2 µN) and dynamic switching behavior (20 µs switching time). Additionally, I defined a comprehensive nine-step surface micromachining fabrication process using High-Resistivity Silicon and Polyimide, ensuring the design’s feasibility for real-world radar integration.',
