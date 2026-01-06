@@ -29,7 +29,7 @@ const work = [
   },
   {
     name: 'Royal Enfield (A unit of Eicher motors)',
-    position: 'Assitant Manager- Cost Management',
+    position: 'Assitant Manager- Project Engineer, VAVE & Technical Integration',
     url: 'https://www.royalenfield.com/us/en/our-world/since-1901/',
     startDate: '2021-10-04',
     endDate: '2024-06-11',
