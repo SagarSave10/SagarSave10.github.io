@@ -3,7 +3,7 @@ const degrees = [
     school: 'University of Michigan',
     degree: 'M.S. Mechanical Engineering',
     CGPA: '4.0/4.0',
-    Course_Highlights: 'Microelectromechanical systems, Integrated Microsystems, Advanced Heat Transfer, Manufacturing & Supply Chain Operations, Smart Manufacturing Systems, Machine Learning, Design Optimization, Design for Manufacturability, Project Management Consulting, Nanotechnology and Nanomachining sciences and technology, and Design for Manufacturability.',
+    Course_Highlights: 'Microelectromechanical systems, Integrated Microsystems, Lithium Battery Lifecycle Management, Smart Manufacturing Systems, Design Optimization, Design for Manufacturability, Project Management Consulting, Nanotechnology and Nanomachining sciences and technology, and Design for Manufacturability, Finite Element Method.',
     link: 'https://umich.edu/',
     year: 2026,
   },
