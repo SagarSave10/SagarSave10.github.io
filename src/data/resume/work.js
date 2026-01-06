@@ -33,7 +33,7 @@ const work = [
     url: 'https://www.royalenfield.com/us/en/our-world/since-1901/',
     startDate: '2021-10-04',
     endDate: '2024-06-11',
-    summary: 'Led and delivered over 15 concurrent cost reduction projects across proprietary mechanical and electrical components. Worked in a fast-paced OEM environment, owning end-to-end responsibility for project execution, supplier coordination, and cross-functional alignment to meet cost, quality, and timeline goals.',
+    summary: 'Led and delivered over 15 concurrent VAVE projects across proprietary mechanical and electrical components. Worked in a fast-paced OEM environment, owning end-to-end responsibility for project execution, supplier coordination, and cross-functional alignment to meet cost, quality, and timeline goals.',
     highlights: [
       'Spearheaded more than 15 cost reduction and VAVE initiatives for proprietary projects to meet strategic business targets.',
       'Collaborated cross-functionally with design, purchasing, and supplier quality teams to streamline the cost planning process from concept to production.',
