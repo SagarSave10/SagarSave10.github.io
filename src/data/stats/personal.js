@@ -5,8 +5,16 @@ const data = [
     link: 'https://www.coursera.org/learn/semiconductor-packaging', // Replace with actual cert link if available
   },
   {
+    label: 'Project Management Consulting',
+    value: 'University of Michigan',
+  },
+  {
     label: '3D Printing Technology (Ultimaker 3 Extended)',
     value: 'Mechanical Engineering Department, DBIT',
+  },
+  {
+    label: 'Avishkar Research Convention',
+    value: '15th Inter-Collegiate, Zonal Level Research Paper Writing Competition, University of Mumbai',
   },
   {
     label: 'Intro to Mechanical Design and Manufacturing with Fusion 360',
